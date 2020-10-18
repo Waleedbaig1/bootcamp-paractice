@@ -31,6 +31,6 @@ jobs:
       - name: install surge
         run: npm install --global surge
       - name: deploy program
-        run: surge ./http://paractice1.surge.sh -- token $ {{ secrets.SURGE_TOKEN}}
+        run: surge ./paractice1.surge.sh -- token $ {{ secrets.SURGE_TOKEN}}
         
         
